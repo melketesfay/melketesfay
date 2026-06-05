@@ -31,7 +31,30 @@
 
 <br>
 
-<!-- Dynamische GitHub Stats (Hochverfügbare Demolab-Instanz) -->
+<!-- Dynamic GitHub Stats -->
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=melketesfay&theme=radical&hide_border=true&background=0D1117" alt="melketesfay GitHub Stats" />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=melketesfay&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117"
+    alt="melketesfay GitHub Stats"
+  />
+</div>
+
+<br>
+
+<!-- Most Used Languages -->
+<div align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=melketesfay&layout=compact&theme=radical&hide_border=true&bg_color=0D1117"
+    alt="melketesfay Top Languages"
+  />
+</div>
+
+<br>
+
+<!-- GitHub Streak -->
+<div align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=melketesfay&theme=radical&hide_border=true&background=0D1117"
+    alt="melketesfay GitHub Streak"
+  />
 </div>
