@@ -1,3 +1,11 @@
+<!-- 1. Matrix Animation Overlay -->
+<div align="center">
+  <img src="assets/matrix_trinity.svg" width="100%" alt="Matrix Terminal Nmap Exploit">
+</div>
+
+<br>
+
+<!-- 2. Profil-Beschreibung -->
 <div align="center">
   <h3>Full-Stack Web Developer & Systems Architect</h3>
   <p>Bridging the gap between scalable web applications and hardened infrastructure.</p>
@@ -13,14 +21,17 @@
 
 <br>
 
+<!-- 3. Tech Stack Icons (Über Devicons CDN für garantierte Verfügbarkeit) -->
 <div align="center">
- <code><img width="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" alt="Docker"></code>
-  <code><img width="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="Python"></code>
-  <code><img width="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png" alt="Linux"></code>
-  <code><img width="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/security/security.png" alt="Security"></code>
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" title="Docker" />
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" title="Python" />
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux" title="Linux" />
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="Bash" title="Bash/Terminal" />
 </div>
+
 <br>
 
+<!-- 4. Dynamische GitHub Stats (URL-Parameter XML-safe escaped mit &amp;) -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=melketesfay&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" alt="melketesfay GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=melketesfay&amp;show_icons=true&amp;theme=radical&amp;hide_border=true&amp;bg_color=0D1117" alt="melketesfay GitHub Stats" />
 </div>
