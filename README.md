@@ -1,6 +1,6 @@
 <!-- Matrix Hero Banner -->
 <div align="center">
-  <img src="./assets/matrix.svg" width="100%" height="260" alt="Matrix terminal animation">
+  <img src="./assets/matrix.svg" width="100%"  alt="Matrix terminal animation">
 </div>
 
 <br>
