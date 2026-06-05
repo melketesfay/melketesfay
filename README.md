@@ -1,6 +1,6 @@
 <!-- 1. Matrix Animation Overlay -->
 <div align="center">
-  <img src="assets/matrix.svg" width="100%" alt="Matrix Terminal Nmap Exploit">
+  <img src="assets/matrix.svg" width="100%" height="50%" alt="Matrix Terminal Nmap Exploit">
 </div>
 
 <br>
@@ -31,7 +31,7 @@
 
 <br>
 
-<!-- 4. Dynamische GitHub Stats (URL-Parameter XML-safe escaped mit &amp;) -->
+<!-- 4. Dynamische GitHub Stats (Fix: Unescaped URL Parameters & Cache Buster) -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=melketesfay&amp;show_icons=true&amp;theme=radical&amp;hide_border=true&amp;bg_color=0D1117" alt="melketesfay GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=melketesfay&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&v=1" alt="melketesfay GitHub Stats" />
 </div>
