@@ -34,7 +34,7 @@
 <!-- GitHub Stats -->
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=melketesfay&amp;show_icons=true&amp;theme=radical&amp;hide_border=true&amp;bg_color=0D1117"
+    src="./profile/stats.svg"
     alt="melketesfay GitHub Stats"
   />
 </div>
@@ -44,17 +44,7 @@
 <!-- Top Languages -->
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=melketesfay&amp;layout=compact&amp;theme=radical&amp;hide_border=true&amp;bg_color=0D1117"
+    src="./profile/top-langs.svg"
     alt="melketesfay Top Languages"
-  />
-</div>
-
-<br>
-
-<!-- GitHub Streak -->
-<div align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=melketesfay&amp;theme=radical&amp;hide_border=true&amp;background=0D1117"
-    alt="melketesfay GitHub Streak"
   />
 </div>
