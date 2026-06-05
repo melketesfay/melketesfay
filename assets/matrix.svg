@@ -30,94 +30,93 @@
             100% { transform: translateY(550px); }
         }
 
-       /* Terminal Overlay */
-.terminal-layer {
-    animation: terminalFadeIn 1.2s ease-out both;
-}
+        /* Terminal Overlay */
+        .terminal-layer {
+            animation: terminalFadeIn 1.2s ease-out both;
+        }
 
-.terminal-window {
-    fill: #020702;
-    fill-opacity: 0.82;
-    stroke: #00ff66;
-    stroke-width: 1.2;
-    filter: url(#terminal-glow);
-}
+        .terminal-window {
+            fill: #020702;
+            fill-opacity: 0.82;
+            stroke: #00ff66;
+            stroke-width: 1.2;
+            filter: url(#terminal-glow);
+        }
 
-.terminal-header {
-    fill: #061406;
-    fill-opacity: 0.94;
-}
+        .terminal-header {
+            fill: #061406;
+            fill-opacity: 0.94;
+        }
 
-.terminal-title {
-    font-family: 'Courier New', monospace;
-    font-size: 10px;
-    fill: #7cff9b;
-    opacity: 0.75;
-}
+        .terminal-title {
+            font-family: 'Courier New', monospace;
+            font-size: 10px;
+            fill: #7cff9b;
+            opacity: 0.75;
+        }
 
-.terminal-dot {
-    opacity: 0.85;
-}
+        .terminal-dot {
+            opacity: 0.85;
+        }
 
-.term-text {
-    font-family: 'Courier New', monospace;
-    font-size: 12.2px;
-    fill: #ffffff;
-    font-weight: bold;
-}
+        .term-text {
+            font-family: 'Courier New', monospace;
+            font-size: 12.2px;
+            fill: #ffffff;
+            font-weight: bold;
+        }
 
-.prompt {
-    fill: #00ff66;
-}
+        .prompt {
+            fill: #00ff66;
+        }
 
-.command {
-    fill: #eaffea;
-}
+        .command {
+            fill: #eaffea;
+        }
 
-.cursor-block {
-    fill: #00ff66;
-    animation: blink 1s step-end infinite;
-}
+        .cursor-block {
+            fill: #00ff66;
+            animation: blink 1s step-end infinite;
+        }
 
-.scanline {
-    fill: #00ff66;
-    opacity: 0.14;
-    animation: scanMove 4.5s linear infinite;
-}
+        .scanline {
+            fill: #00ff66;
+            opacity: 0.14;
+            animation: scanMove 4.5s linear infinite;
+        }
 
-@keyframes terminalFadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(18px) scale(0.98);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
-}
+        @keyframes terminalFadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(18px) scale(0.98);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
 
-@keyframes scanMove {
-    0% {
-        transform: translateY(0);
-        opacity: 0.05;
-    }
-    50% {
-        opacity: 0.18;
-    }
-    100% {
-        transform: translateY(44px);
-        opacity: 0.05;
-    }
-}
+        @keyframes scanMove {
+            0% {
+                transform: translateY(0);
+                opacity: 0.05;
+            }
+            50% {
+                opacity: 0.18;
+            }
+            100% {
+                transform: translateY(44px);
+                opacity: 0.05;
+            }
+        }
+
         @keyframes blink {
             0%, 100% { opacity: 1; }
             50% { opacity: 0; }
         }
     </style>
-    
+
     <rect width="100%" height="100%" fill="#000" />
-    
- 
 
     <defs>
         <linearGradient id="drop-gradient" x1="0" y1="0" x2="0" y2="1">
@@ -128,7 +127,7 @@
             <stop offset="97%" stop-color="#fff" stop-opacity="1" />
             <stop offset="100%" stop-color="#000" />
         </linearGradient>
-        
+
         <mask id="matrix-mask">
             <rect x="2" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-fast del-1" />
             <rect x="20" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-slow del-4" />
@@ -175,42 +174,43 @@
             <rect x="758" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-slow del-5" />
             <rect x="776" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vfast del-6" />
         </mask>
+
         <filter id="terminal-glow" x="-20%" y="-20%" width="140%" height="140%">
-    <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#00ff66" flood-opacity="0.45"/>
-</filter>
+            <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#00ff66" flood-opacity="0.45"/>
+        </filter>
 
-<clipPath id="cmd1-clip">
-    <rect x="54" y="154" width="0" height="24">
-        <animate attributeName="width"
-            values="0;0;700;700;0;0"
-            keyTimes="0;0.02;0.26;0.32;0.33;1"
-            dur="12s"
-            begin="0s"
-            repeatCount="indefinite" />
-    </rect>
-</clipPath>
+        <clipPath id="cmd1-clip">
+            <rect x="54" y="154" width="0" height="24">
+                <animate attributeName="width"
+                    values="0;0;690;690;0;0"
+                    keyTimes="0;0.02;0.26;0.32;0.33;1"
+                    dur="12s"
+                    begin="0s"
+                    repeatCount="indefinite" />
+            </rect>
+        </clipPath>
 
-<clipPath id="cmd2-clip">
-    <rect x="54" y="154" width="0" height="24">
-        <animate attributeName="width"
-            values="0;0;700;700;0;0"
-            keyTimes="0;0.02;0.26;0.32;0.33;1"
-            dur="12s"
-            begin="4s"
-            repeatCount="indefinite" />
-    </rect>
-</clipPath>
+        <clipPath id="cmd2-clip">
+            <rect x="54" y="154" width="0" height="24">
+                <animate attributeName="width"
+                    values="0;0;530;530;0;0"
+                    keyTimes="0;0.02;0.26;0.32;0.33;1"
+                    dur="12s"
+                    begin="4s"
+                    repeatCount="indefinite" />
+            </rect>
+        </clipPath>
 
-<clipPath id="cmd3-clip">
-    <rect x="54" y="154" width="0" height="24">
-        <animate attributeName="width"
-            values="0;0;700;700;0;0"
-            keyTimes="0;0.02;0.26;0.32;0.33;1"
-            dur="12s"
-            begin="8s"
-            repeatCount="indefinite" />
-    </rect>
-</clipPath>
+        <clipPath id="cmd3-clip">
+            <rect x="54" y="154" width="0" height="24">
+                <animate attributeName="width"
+                    values="0;0;415;415;0;0"
+                    keyTimes="0;0.02;0.26;0.32;0.33;1"
+                    dur="12s"
+                    begin="8s"
+                    repeatCount="indefinite" />
+            </rect>
+        </clipPath>
     </defs>
 
     <g mask="url(#matrix-mask)">
@@ -259,98 +259,99 @@
         <text x="766" y="10" class="matrix-text">ስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
         <text x="784" y="10" class="matrix-text">ድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽ</text>
     </g>
+
     <g id="terminal-layer" class="terminal-layer">
-    <rect x="34" y="110" width="732" height="94" rx="10" class="terminal-window" />
+        <rect x="34" y="110" width="732" height="94" rx="10" class="terminal-window" />
 
-    <rect x="34" y="110" width="732" height="26" rx="10" class="terminal-header" />
-    <rect x="34" y="128" width="732" height="8" fill="#061406" opacity="0.94" />
+        <rect x="34" y="110" width="732" height="26" rx="10" class="terminal-header" />
+        <rect x="34" y="128" width="732" height="8" fill="#061406" opacity="0.94" />
 
-    <circle cx="52" cy="123" r="4" fill="#ff5f56" class="terminal-dot" />
-    <circle cx="66" cy="123" r="4" fill="#ffbd2e" class="terminal-dot" />
-    <circle cx="80" cy="123" r="4" fill="#27c93f" class="terminal-dot" />
+        <circle cx="52" cy="123" r="4" fill="#ff5f56" class="terminal-dot" />
+        <circle cx="66" cy="123" r="4" fill="#ffbd2e" class="terminal-dot" />
+        <circle cx="80" cy="123" r="4" fill="#27c93f" class="terminal-dot" />
 
-    <text x="400" y="127" text-anchor="middle" class="terminal-title">
-        matrix://zion-terminal
-    </text>
-
-    <rect x="50" y="148" width="700" height="1.4" class="scanline" />
-
-   <!-- Command 1 -->
-<g id="command-1" opacity="0">
-    <animate attributeName="opacity"
-        values="0;1;1;0;0"
-        keyTimes="0;0.02;0.32;0.33;1"
-        dur="12s"
-        begin="0s"
-        repeatCount="indefinite" />
-
-    <g clip-path="url(#cmd1-clip)">
-        <text x="54" y="173" class="term-text">
-            <tspan class="prompt">root@melketesfay:~#</tspan>
-            <tspan class="command"> nmap -v -sS -O 10.2.2.2 &amp;&amp; sshnuke 10.2.2.2 -rootpw="Z1ON0101"</tspan>
+        <text x="400" y="127" text-anchor="middle" class="terminal-title">
+            matrix://zion-terminal
         </text>
+
+        <rect x="50" y="148" width="700" height="1.4" class="scanline" />
+
+        <!-- Command 1 -->
+        <g id="command-1" opacity="0">
+            <animate attributeName="opacity"
+                values="0;1;1;0;0"
+                keyTimes="0;0.02;0.32;0.33;1"
+                dur="12s"
+                begin="0s"
+                repeatCount="indefinite" />
+
+            <g clip-path="url(#cmd1-clip)">
+                <text x="54" y="173" class="term-text" textLength="690" lengthAdjust="spacing">
+                    <tspan class="prompt">root@melketesfay:~#</tspan>
+                    <tspan class="command"> nmap -v -sS -O 10.2.2.2 &amp;&amp; sshnuke 10.2.2.2 -rootpw="Z1ON0101"</tspan>
+                </text>
+            </g>
+
+            <rect x="54" y="159" width="8" height="17" class="cursor-block">
+                <animate attributeName="x"
+                    values="54;54;746;746;54;54"
+                    keyTimes="0;0.02;0.26;0.32;0.33;1"
+                    dur="12s"
+                    begin="0s"
+                    repeatCount="indefinite" />
+            </rect>
+        </g>
+
+        <!-- Command 2 -->
+        <g id="command-2" opacity="0">
+            <animate attributeName="opacity"
+                values="0;1;1;0;0"
+                keyTimes="0;0.02;0.32;0.33;1"
+                dur="12s"
+                begin="4s"
+                repeatCount="indefinite" />
+
+            <g clip-path="url(#cmd2-clip)">
+                <text x="54" y="173" class="term-text" textLength="530" lengthAdjust="spacing">
+                    <tspan class="prompt">root@melketesfay:~#</tspan>
+                    <tspan class="command"> ssh trinity@10.2.2.2 -i ~/.ssh/construct_key</tspan>
+                </text>
+            </g>
+
+            <rect x="54" y="159" width="8" height="17" class="cursor-block">
+                <animate attributeName="x"
+                    values="54;54;586;586;54;54"
+                    keyTimes="0;0.02;0.26;0.32;0.33;1"
+                    dur="12s"
+                    begin="4s"
+                    repeatCount="indefinite" />
+            </rect>
+        </g>
+
+        <!-- Command 3 -->
+        <g id="command-3" opacity="0">
+            <animate attributeName="opacity"
+                values="0;1;1;0;0"
+                keyTimes="0;0.02;0.32;0.33;1"
+                dur="12s"
+                begin="8s"
+                repeatCount="indefinite" />
+
+            <g clip-path="url(#cmd3-clip)">
+                <text x="54" y="173" class="term-text" textLength="415" lengthAdjust="spacing">
+                    <tspan class="prompt">root@melketesfay:~#</tspan>
+                    <tspan class="command"> tail -f /var/log/construct.log</tspan>
+                </text>
+            </g>
+
+            <rect x="54" y="159" width="8" height="17" class="cursor-block">
+                <animate attributeName="x"
+                    values="54;54;471;471;54;54"
+                    keyTimes="0;0.02;0.26;0.32;0.33;1"
+                    dur="12s"
+                    begin="8s"
+                    repeatCount="indefinite" />
+            </rect>
+        </g>
     </g>
-
-    <rect x="54" y="159" width="8" height="17" class="cursor-block">
-        <animate attributeName="x"
-            values="54;54;735;735;54;54"
-            keyTimes="0;0.02;0.26;0.32;0.33;1"
-            dur="12s"
-            begin="0s"
-            repeatCount="indefinite" />
-    </rect>
-</g>
-
-<!-- Command 2 -->
-<g id="command-2" opacity="0">
-    <animate attributeName="opacity"
-        values="0;1;1;0;0"
-        keyTimes="0;0.02;0.32;0.33;1"
-        dur="12s"
-        begin="4s"
-        repeatCount="indefinite" />
-
-    <g clip-path="url(#cmd2-clip)">
-        <text x="54" y="173" class="term-text">
-            <tspan class="prompt">root@melketesfay:~#</tspan>
-            <tspan class="command"> ssh trinity@10.2.2.2 -i ~/.ssh/construct_key</tspan>
-        </text>
-    </g>
-
-    <rect x="54" y="159" width="8" height="17" class="cursor-block">
-        <animate attributeName="x"
-            values="54;54;560;560;54;54"
-            keyTimes="0;0.02;0.26;0.32;0.33;1"
-            dur="12s"
-            begin="4s"
-            repeatCount="indefinite" />
-    </rect>
-</g>
-
-<!-- Command 3 -->
-<g id="command-3" opacity="0">
-    <animate attributeName="opacity"
-        values="0;1;1;0;0"
-        keyTimes="0;0.02;0.32;0.33;1"
-        dur="12s"
-        begin="8s"
-        repeatCount="indefinite" />
-
-    <g clip-path="url(#cmd3-clip)">
-        <text x="54" y="173" class="term-text">
-            <tspan class="prompt">root@melketesfay:~#</tspan>
-            <tspan class="command"> tail -f /var/log/construct.log</tspan>
-        </text>
-    </g>
-
-    <rect x="54" y="159" width="8" height="17" class="cursor-block">
-        <animate attributeName="x"
-            values="54;54;420;420;54;54"
-            keyTimes="0;0.02;0.26;0.32;0.33;1"
-            dur="12s"
-            begin="8s"
-            repeatCount="indefinite" />
-    </rect>
-</g>
-</g>
 </svg>
