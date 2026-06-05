@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+    <style>
+        /* Matrix Regen Styles */
+        .matrix-text {
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            fill: #00ff00;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            white-space: nowrap;
+            letter-spacing: 6px;
+        }
+        .mover { animation: lightPass infinite linear; }
+        .speed-vfast { animation-duration: 2.8s; }
+        .speed-fast  { animation-duration: 3.9s; }
+        .speed-med   { animation-duration: 5.2s; }
+        .speed-slow  { animation-duration: 7.0s; }
+        .speed-vslow { animation-duration: 9.5s; }
+        .del-1 { animation-delay: 0.0s; }
+        .del-2 { animation-delay: 0.6s; }
+        .del-3 { animation-delay: 1.3s; }
+        .del-4 { animation-delay: 2.1s; }
+        .del-5 { animation-delay: 3.0s; }
+        .del-6 { animation-delay: 3.8s; }
+        .del-7 { animation-delay: 4.6s; }
+        .del-8 { animation-delay: 5.5s; }
+
+        @keyframes lightPass {
+            0%   { transform: translateY(-420px); }
+            100% { transform: translateY(550px); }
+        }
+
+        /* Terminal Styles - Angepasste Größe für 800px Viewbox */
+        .term-text {
+            font-family: 'Courier New', monospace;
+            font-size: 14.5px; 
+            fill: #ffffff;
+            font-weight: bold;
+        }
+        .prompt { fill: #00ff00; }
+        .cursor {
+            fill: #00ff00;
+            animation: blink 1s step-end infinite; 
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+    
+    <rect width="100%" height="100%" fill="#000" />
+    
+    <g id="terminal-layer">
+        <text x="15" y="255" class="term-text">
+            <tspan class="prompt">root@melketesfay:~#</tspan> nmap -v -sS -O 10.2.2.2 &amp;&amp; sshnuke 10.2.2.2 -rootpw="Z1ON0101"<tspan class="cursor">&#9608;</tspan>
+        </text>
+    </g>
+
+    <defs>
+        <linearGradient id="drop-gradient" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#000" />
+            <stop offset="25%" stop-color="#0f0" stop-opacity="0.15" />
+            <stop offset="55%" stop-color="#0f0" stop-opacity="0.45" />
+            <stop offset="85%" stop-color="#0f0" stop-opacity="0.85" />
+            <stop offset="97%" stop-color="#fff" stop-opacity="1" />
+            <stop offset="100%" stop-color="#000" />
+        </linearGradient>
+        
+        <mask id="matrix-mask">
+            <rect x="2" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-fast del-1" />
+            <rect x="20" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-slow del-4" />
+            <rect x="38" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-med del-2" />
+            <rect x="56" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vfast del-6" />
+            <rect x="74" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vslow del-3" />
+            <rect x="92" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-fast del-7" />
+            <rect x="110" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-slow del-5" />
+            <rect x="128" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-med del-8" />
+            <rect x="146" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vfast del-1" />
+            <rect x="164" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vslow del-4" />
+            <rect x="182" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-fast del-2" />
+            <rect x="200" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-slow del-6" />
+            <rect x="218" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-med del-3" />
+            <rect x="236" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vfast del-7" />
+            <rect x="254" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vslow del-5" />
+            <rect x="272" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-fast del-8" />
+            <rect x="290" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-slow del-1" />
+            <rect x="308" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-med del-4" />
+            <rect x="326" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vfast del-2" />
+            <rect x="344" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vslow del-6" />
+            <rect x="362" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-fast del-3" />
+            <rect x="380" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-med del-7" />
+            <rect x="398" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-slow del-1" />
+            <rect x="416" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vfast del-5" />
+            <rect x="434" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vslow del-8" />
+            <rect x="452" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-fast del-2" />
+            <rect x="470" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-med del-6" />
+            <rect x="488" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-slow del-3" />
+            <rect x="506" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vfast del-1" />
+            <rect x="524" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vslow del-7" />
+            <rect x="542" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-fast del-4" />
+            <rect x="560" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-med del-2" />
+            <rect x="578" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-slow del-8" />
+            <rect x="596" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vfast del-3" />
+            <rect x="614" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vslow del-5" />
+            <rect x="632" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-fast del-1" />
+            <rect x="650" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-med del-6" />
+            <rect x="668" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-slow del-4" />
+            <rect x="686" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vfast del-2" />
+            <rect x="704" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vslow del-7" />
+            <rect x="722" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-fast del-3" />
+            <rect x="740" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-med del-8" />
+            <rect x="758" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-slow del-5" />
+            <rect x="776" width="16" height="380" fill="url(#drop-gradient)" class="mover speed-vfast del-6" />
+        </mask>
+    </defs>
+
+    <g mask="url(#matrix-mask)">
+        <text x="10" y="10" class="matrix-text">ድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍ</text>
+        <text x="28" y="10" class="matrix-text">ዊቱስጀምንችብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="46" y="10" class="matrix-text">ስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="64" y="10" class="matrix-text">ድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽ</text>
+        <text x="82" y="10" class="matrix-text">ብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፕዊቱስጀምን</text>
+        <text x="100" y="10" class="matrix-text">ድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍ</text>
+        <text x="118" y="10" class="matrix-text">ዊቱስጀምንችብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="136" y="10" class="matrix-text">ስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="154" y="10" class="matrix-text">ድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽ</text>
+        <text x="172" y="10" class="matrix-text">ብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፕዊቱስጀምን</text>
+        <text x="190" y="10" class="matrix-text">ድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍ</text>
+        <text x="208" y="10" class="matrix-text">ዊቱስጀምንችብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="226" y="10" class="matrix-text">ስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="244" y="10" class="matrix-text">ድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽ</text>
+        <text x="262" y="10" class="matrix-text">ብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፕዊቱስጀምን</text>
+        <text x="280" y="10" class="matrix-text">ድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍ</text>
+        <text x="298" y="10" class="matrix-text">ዊቱስጀምንችብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="316" y="10" class="matrix-text">ስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="334" y="10" class="matrix-text">ድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽ</text>
+        <text x="352" y="10" class="matrix-text">ብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፕዊቱስጀምን</text>
+        <text x="370" y="10" class="matrix-text">ድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍ</text>
+        <text x="388" y="10" class="matrix-text">ዊቱስጀምንችብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="406" y="10" class="matrix-text">ስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="424" y="10" class="matrix-text">ድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽ</text>
+        <text x="442" y="10" class="matrix-text">ብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፕዊቱስጀምን</text>
+        <text x="460" y="10" class="matrix-text">ድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍ</text>
+        <text x="478" y="10" class="matrix-text">ዊቱስጀምንችብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="496" y="10" class="matrix-text">ስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="514" y="10" class="matrix-text">ድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽ</text>
+        <text x="532" y="10" class="matrix-text">ብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፕዊቱስጀምን</text>
+        <text x="550" y="10" class="matrix-text">ድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍ</text>
+        <text x="568" y="10" class="matrix-text">ዊቱስጀምንችብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="586" y="10" class="matrix-text">ስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="604" y="10" class="matrix-text">ድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽ</text>
+        <text x="622" y="10" class="matrix-text">ብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፕዊቱስጀምን</text>
+        <text x="640" y="10" class="matrix-text">ድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍ</text>
+        <text x="658" y="10" class="matrix-text">ዊቱስጀምንችብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="676" y="10" class="matrix-text">ስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="694" y="10" class="matrix-text">ድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽ</text>
+        <text x="712" y="10" class="matrix-text">ብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፕዊቱስጀምን</text>
+        <text x="730" y="10" class="matrix-text">ድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍ</text>
+        <text x="748" y="10" class="matrix-text">ዊቱስጀምንችብቭሽፋስድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="766" y="10" class="matrix-text">ስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድ</text>
+        <text x="784" y="10" class="matrix-text">ድድድፍፕዊቱስጀምንችብቭሽፋስድፍድድድፍፕዊቱስጀምንችብቭሽ</text>
+    </g>
+</svg>
