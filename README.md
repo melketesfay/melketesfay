@@ -31,9 +31,7 @@
 
 <br>
 
-<!-- 4. Dynamische GitHub Stats (Nativer Markdown-Fix) -->
+<!-- Dynamische GitHub Stats (Hochverfügbare Demolab-Instanz) -->
 <div align="center">
-
-[![melketesfay GitHub Stats](https://github-readme-stats.vercel.app/api?username=melketesfay&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&v=2)](https://github.com/melketesfay)
-
+  <img src="https://streak-stats.demolab.com?user=melketesfay&theme=radical&hide_border=true&background=0D1117" alt="melketesfay GitHub Stats" />
 </div>
