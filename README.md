@@ -1,6 +1,6 @@
 <!-- 1. Matrix Animation Overlay -->
 <div align="center">
-  <img src="assets/matrix_trinity.svg" width="100%" alt="Matrix Terminal Nmap Exploit">
+  <img src="assets/matrix.svg" width="100%" alt="Matrix Terminal Nmap Exploit">
 </div>
 
 <br>
