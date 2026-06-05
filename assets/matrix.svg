@@ -179,15 +179,36 @@
     <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#00ff66" flood-opacity="0.45"/>
 </filter>
 
-<clipPath id="command-typing-clip">
+<clipPath id="cmd1-clip">
     <rect x="54" y="154" width="0" height="24">
-        <animate
-            attributeName="width"
-            from="0"
-            to="690"
-            dur="3.8s"
-            begin="0.7s"
-            fill="freeze" />
+        <animate attributeName="width"
+            values="0;0;700;700;0;0"
+            keyTimes="0;0.02;0.26;0.32;0.33;1"
+            dur="12s"
+            begin="0s"
+            repeatCount="indefinite" />
+    </rect>
+</clipPath>
+
+<clipPath id="cmd2-clip">
+    <rect x="54" y="154" width="0" height="24">
+        <animate attributeName="width"
+            values="0;0;700;700;0;0"
+            keyTimes="0;0.02;0.26;0.32;0.33;1"
+            dur="12s"
+            begin="4s"
+            repeatCount="indefinite" />
+    </rect>
+</clipPath>
+
+<clipPath id="cmd3-clip">
+    <rect x="54" y="154" width="0" height="24">
+        <animate attributeName="width"
+            values="0;0;700;700;0;0"
+            keyTimes="0;0.02;0.26;0.32;0.33;1"
+            dur="12s"
+            begin="8s"
+            repeatCount="indefinite" />
     </rect>
 </clipPath>
     </defs>
@@ -254,7 +275,16 @@
 
     <rect x="50" y="148" width="700" height="1.4" class="scanline" />
 
-    <g clip-path="url(#command-typing-clip)">
+   <!-- Command 1 -->
+<g id="command-1" opacity="0">
+    <animate attributeName="opacity"
+        values="0;1;1;0;0"
+        keyTimes="0;0.02;0.32;0.33;1"
+        dur="12s"
+        begin="0s"
+        repeatCount="indefinite" />
+
+    <g clip-path="url(#cmd1-clip)">
         <text x="54" y="173" class="term-text">
             <tspan class="prompt">root@melketesfay:~#</tspan>
             <tspan class="command"> nmap -v -sS -O 10.2.2.2 &amp;&amp; sshnuke 10.2.2.2 -rootpw="Z1ON0101"</tspan>
@@ -262,13 +292,65 @@
     </g>
 
     <rect x="54" y="159" width="8" height="17" class="cursor-block">
-        <animate
-            attributeName="x"
-            from="54"
-            to="744"
-            dur="3.8s"
-            begin="0.7s"
-            fill="freeze" />
+        <animate attributeName="x"
+            values="54;54;735;735;54;54"
+            keyTimes="0;0.02;0.26;0.32;0.33;1"
+            dur="12s"
+            begin="0s"
+            repeatCount="indefinite" />
     </rect>
+</g>
+
+<!-- Command 2 -->
+<g id="command-2" opacity="0">
+    <animate attributeName="opacity"
+        values="0;1;1;0;0"
+        keyTimes="0;0.02;0.32;0.33;1"
+        dur="12s"
+        begin="4s"
+        repeatCount="indefinite" />
+
+    <g clip-path="url(#cmd2-clip)">
+        <text x="54" y="173" class="term-text">
+            <tspan class="prompt">root@melketesfay:~#</tspan>
+            <tspan class="command"> ssh trinity@10.2.2.2 -i ~/.ssh/construct_key</tspan>
+        </text>
+    </g>
+
+    <rect x="54" y="159" width="8" height="17" class="cursor-block">
+        <animate attributeName="x"
+            values="54;54;560;560;54;54"
+            keyTimes="0;0.02;0.26;0.32;0.33;1"
+            dur="12s"
+            begin="4s"
+            repeatCount="indefinite" />
+    </rect>
+</g>
+
+<!-- Command 3 -->
+<g id="command-3" opacity="0">
+    <animate attributeName="opacity"
+        values="0;1;1;0;0"
+        keyTimes="0;0.02;0.32;0.33;1"
+        dur="12s"
+        begin="8s"
+        repeatCount="indefinite" />
+
+    <g clip-path="url(#cmd3-clip)">
+        <text x="54" y="173" class="term-text">
+            <tspan class="prompt">root@melketesfay:~#</tspan>
+            <tspan class="command"> tail -f /var/log/construct.log</tspan>
+        </text>
+    </g>
+
+    <rect x="54" y="159" width="8" height="17" class="cursor-block">
+        <animate attributeName="x"
+            values="54;54;420;420;54;54"
+            keyTimes="0;0.02;0.26;0.32;0.33;1"
+            dur="12s"
+            begin="8s"
+            repeatCount="indefinite" />
+    </rect>
+</g>
 </g>
 </svg>
