@@ -31,20 +31,20 @@
 
 <br>
 
-<!-- Dynamic GitHub Stats -->
+<!-- GitHub Stats -->
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=melketesfay&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117"
+    src="https://github-readme-stats.vercel.app/api?username=melketesfay&amp;show_icons=true&amp;theme=radical&amp;hide_border=true&amp;bg_color=0D1117"
     alt="melketesfay GitHub Stats"
   />
 </div>
 
 <br>
 
-<!-- Most Used Languages -->
+<!-- Top Languages -->
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=melketesfay&layout=compact&theme=radical&hide_border=true&bg_color=0D1117"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=melketesfay&amp;layout=compact&amp;theme=radical&amp;hide_border=true&amp;bg_color=0D1117"
     alt="melketesfay Top Languages"
   />
 </div>
@@ -54,7 +54,7 @@
 <!-- GitHub Streak -->
 <div align="center">
   <img
-    src="https://streak-stats.demolab.com?user=melketesfay&theme=radical&hide_border=true&background=0D1117"
+    src="https://streak-stats.demolab.com?user=melketesfay&amp;theme=radical&amp;hide_border=true&amp;background=0D1117"
     alt="melketesfay GitHub Streak"
   />
 </div>
