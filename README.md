@@ -31,7 +31,9 @@
 
 <br>
 
-<!-- 4. Dynamische GitHub Stats (Fix: Unescaped URL Parameters & Cache Buster) -->
+<!-- 4. Dynamische GitHub Stats (Nativer Markdown-Fix) -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=melketesfay&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&v=1" alt="melketesfay GitHub Stats" />
+
+[![melketesfay GitHub Stats](https://github-readme-stats.vercel.app/api?username=melketesfay&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&v=2)](https://github.com/melketesfay)
+
 </div>
