@@ -13,10 +13,14 @@
   </p>
   <p>
     <a href="https://melke.ch">
-      <img src="https://melke.ch/favicon.svg" height="18" alt="Portfolio logo" /> Portfolio
-    </a> •
-    <a href="https://github.com/melketesfay">GitHub</a> •
-    <a href="https://codepen.io/melketesfay">CodePen</a> •
+      <img src="https://melke.ch/favicon.svg" height="28" alt="Portfolio logo" align="center" />
+      <b>Portfolio</b>
+    </a>
+    &nbsp;•&nbsp;
+    <a href="https://github.com/melketesfay">GitHub</a>
+    &nbsp;•&nbsp;
+    <a href="https://codepen.io/melketesfay">CodePen</a>
+    &nbsp;•&nbsp;
     <a href="https://infosec.exchange/@melketesfay">Mastodon</a>
   </p>
 </div>
