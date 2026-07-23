@@ -1,24 +1,33 @@
 <!-- Matrix Hero Banner -->
 <div align="center">
-  <img src="./assets/matrix.svg" width="100%"  alt="Matrix terminal animation">
+  <img src="./assets/matrix.svg" width="100%" alt="Matrix terminal animation">
 </div>
 
 <br>
 
 <div align="center">
-  <h2>Infrastructure-minded Full-Stack Developer</h2>
+  <h2>Full-Stack Developer focused on infrastructure, automation and security</h2>
   <p>
-    Building web applications, automation tools, and self-hosted infrastructure with a growing focus on cybersecurity and cloud security.
+    I build web applications, AI-assisted automation tools and self-hosted systems.
+    My main interests are backend logic, DevOps workflows, practical cybersecurity and infrastructure that is operated, not just demoed.
+  </p>
+  <p>
+    <a href="https://melke.ch">
+      <img src="https://melke.ch/favicon.svg" height="18" alt="Portfolio logo" /> Portfolio
+    </a> •
+    <a href="https://github.com/melketesfay">GitHub</a> •
+    <a href="https://codepen.io/melketesfay">CodePen</a> •
+    <a href="https://infosec.exchange/@melketesfay">Mastodon</a>
   </p>
 </div>
 
 <div align="center">
   <p>
-    <b>Full-Stack:</b> JavaScript • Vue.js • PHP • Laravel • MySQL • Docker<br>
-    <b>Infrastructure:</b> Linux • Proxmox • pfSense • WireGuard • Reverse Proxies • TLS/SSL<br>
-    <b>Automation & AI:</b> Python • OpenAI/Gemini APIs • Ollama • Structured Data Pipelines<br>
-    <b>Security Focus:</b> Zero Trust • Network Segmentation • MFA • Internal CA • Incident Response<br>
-    <b>Academic Path:</b> B.Sc. Information & Cyber Security, HSLU — starting Sep 2026
+    <b>Web:</b> HTML • CSS • JavaScript • Vue.js • PHP • Laravel • MySQL<br>
+    <b>Automation & AI:</b> Python • Playwright • Vertex AI/Gemini • OpenAI APIs • Ollama • RAG<br>
+    <b>Infrastructure:</b> Linux • Docker • Proxmox • pfSense • TrueNAS • GitLab CI/CD • Reverse Proxies<br>
+    <b>Security & Networking:</b> Zero Trust • Network Segmentation • WireGuard • TLS/SSL • MFA • Internal CA • Monitoring<br>
+    <b>Cloud & IaC:</b> Terraform • Google Cloud Platform • Firebase • GitHub Actions
   </p>
 </div>
 
@@ -28,57 +37,73 @@
 
 ## About Me
 
-I am a full-stack web developer with a strong interest in infrastructure, automation, and cybersecurity.
+I am a full-stack developer with a strong interest in the systems around the application: backend logic, deployment, authentication, monitoring, network boundaries and automation.
 
-My work combines web development with practical systems engineering: Dockerized applications, Linux servers, Proxmox-based homelab environments, pfSense firewalling, WireGuard VPNs, reverse proxies, TLS/SSL, and internal certificate authority management.
+My work combines web development with practical infrastructure engineering. I run and expand self-hosted environments with Linux, Docker, Proxmox, pfSense, reverse proxies, WireGuard, internal TLS and segmented services. I am especially interested in how web applications behave once they leave the local machine and become real systems that need to be deployed, secured and operated.
 
-Currently, I am building AI-assisted automation tools, including an e-commerce listing assistant that transforms product photos and structured item data into researched listing drafts.
+Currently, I am building AI-assisted automation tools and infrastructure labs while preparing for a deeper academic path in cybersecurity.
 
-I am preparing for a B.Sc. in Information & Cyber Security at HSLU, with a long-term focus on cloud security, incident response, and secure infrastructure design.
+**Academic path:** Mechanical Engineering studies at ETH Zürich, successfully completed the first-year examination; part-time B.Sc. Information & Cyber Security at HSLU from September 2026.
 
 ---
 
 ## Current Focus
 
-- Building a professional full-stack portfolio
-- Developing an AI-assisted e-commerce listing assistant
-- Expanding a Proxmox/pfSense homelab for security and infrastructure labs
-- Learning cloud security fundamentals
-- Preparing for B.Sc. Information & Cyber Security at HSLU
+- Building **ARKI**, an AI-assisted catalog automation workflow with Python, Playwright, Vertex AI/Gemini and RAG-style context.
+- Expanding a **Zero-Trust MiniCorp Homelab** with Proxmox, pfSense, segmented services, auth, monitoring and self-hosted deployment flows.
+- Designing **Terraform & GCP infrastructure blueprints** for reproducible, reviewable cloud environments.
+- Improving my practical understanding of identity, MFA, internal certificate authorities, network segmentation and observability.
+- Preparing for part-time cybersecurity studies at HSLU from September 2026.
 
 ---
 
 ## Project Highlights
 
-### Ricardo AI Listing Assistant
+### ARKI - AI Catalog Automation
 
-AI-assisted workflow for generating structured product listings from photos, measurements, and minimal item data.
+Product-catalog automation for Brocki Arche Zürich. The workflow analyzes product photos, gathers research context through Google Lens/SerpAPI, and generates listing drafts with Vertex AI/Gemini, tool calling and RAG-style project context.
 
-**Focus:** prompt engineering, image-based analysis, pricing research, structured outputs, and automation.
-
----
-
-### ZeroTrust MiniCorp Homelab
-
-A simulated small-business infrastructure using Proxmox, pfSense, VLANs, WireGuard, reverse proxies, internal CA, and segmented services.
-
-**Focus:** network security, defensive architecture, TLS, and practical infrastructure hardening.
+**Focus:** Python, Playwright, browser automation, AI-assisted research, structured outputs and workflow acceleration.
 
 ---
 
-### Self-hosted AI Chatbot
+### Rest Assured AFH - Frontend & Brand Project
 
-Local LLM chatbot experiment using Ollama and a custom web interface.
+Frontend and branding project covering web design, logo work, business cards, brochure/banner assets, SEO and performance polish. The deployment is built around a very low-cost hosting setup using GitHub Actions and Firebase.
 
-**Focus:** self-hosted AI, API integration, frontend UX, and controlled local inference.
+**Focus:** frontend implementation, visual design, branding, SEO, performance and deployment.
 
 ---
 
-### GitLab CI/CD Deployment Lab
+### Zero-Trust MiniCorp Homelab
 
-Hands-on CI/CD pipeline for testing and deploying applications to self-managed infrastructure.
+A self-hosted infrastructure lab modeled like a small organization: Proxmox virtualization, pfSense firewalling, segmented networks, reverse proxy, internal CA, auth, storage, GitLab CI/CD and monitoring.
 
-**Focus:** GitLab runners, deployment automation, Docker, and server-side release workflows.
+**Focus:** system architecture, network segmentation, TLS, defensive infrastructure and operational learning.
+
+---
+
+### Terraform & GCP Infrastructure Blueprint
+
+Infrastructure-as-Code project for reproducible cloud environments on Google Cloud Platform. The goal is to manage networking, IAM, hosting foundations, state handling and CI/CD-driven changes without manual console drift.
+
+**Focus:** Terraform, GCP, IAM, cloud networking, reproducible environments and reviewable infrastructure changes.
+
+---
+
+### Custom Portfolio Interface
+
+My portfolio website is a zero-framework frontend system built with HTML, CSS and Vanilla JavaScript. It includes wave navigation, touch reveals, a 3D cube, CRT layers, responsive motion fallbacks and performance polish.
+
+**Focus:** browser-native frontend, interaction design, DOM work, responsive motion and performance tradeoffs.
+
+---
+
+### Identity & MFA Lab
+
+Security learning project for understanding authentication, session handling and two-factor flows by building a web auth system together with an Android authenticator app.
+
+**Focus:** authentication, 2FA/MFA, sessions, backend security concepts and Android integration.
 
 ---
 
@@ -93,13 +118,19 @@ Hands-on CI/CD pipeline for testing and deploying applications to self-managed i
   <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="Laravel" title="Laravel" />
   <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL" title="MySQL" />
   <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" title="Python" />
+  <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg" alt="Playwright" title="Playwright" />
   <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" title="Docker" />
   <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux" title="Linux" />
-  <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="Bash" title="Bash/Terminal" />
+  <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" alt="Nginx" title="Nginx / Reverse Proxy" />
+  <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" alt="GitLab" title="GitLab CI/CD" />
+  <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" title="GitHub Actions" />
+  <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" alt="Terraform" title="Terraform" />
+  <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" alt="Google Cloud" title="Google Cloud Platform" />
+  <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" alt="Firebase" title="Firebase" />
+  <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="Bash" title="Bash / Terminal" />
   <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" title="Git" />
 </div>
 
-<br>
 
 ---
 
