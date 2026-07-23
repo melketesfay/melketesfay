@@ -124,16 +124,16 @@ Security learning project for understanding authentication, session handling and
   <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" title="Python" />
   <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg" alt="Playwright" title="Playwright" />
   <img height="42" src="./assets/google-gemini.svg" alt="Google Gemini" title="Google Gemini / Vertex AI" />
-  <img height="42" src="./assets/openai.svg" alt="OpenAI" title="OpenAI APIs" />
-  <img height="42" src="./assets/ollama.svg" alt="Ollama" title="Ollama" />
+  <img height="42" src="./assets/openai-light.svg" alt="OpenAI" title="OpenAI APIs" />
+  <img height="42" src="./assets/ollama-dark.svg" alt="Ollama" title="Ollama" />
   <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" title="Docker" />
   <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux" title="Linux" />
-  <img height="42" src="./assets/proxmox.svg" alt="Proxmox" title="Proxmox" />
+  <img height="42" src="./assets/proxmox-light.svg" alt="Proxmox" title="Proxmox" />
   <img height="42" src="./assets/pfsense.svg" alt="pfSense" title="pfSense" />
   <img height="42" src="./assets/truenas-scale.svg" alt="TrueNAS SCALE" title="TrueNAS SCALE" />
   <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" alt="Nginx" title="Nginx / Reverse Proxy" />
   <img height="42" src="./assets/wireguard.svg" alt="WireGuard" title="WireGuard" />
-  <img height="42" src="./assets/tailscale.svg" alt="Tailscale" title="Tailscale" />
+  <img height="42" src="./assets/tailscale-light.svg" alt="Tailscale" title="Tailscale" />
   <img height="42" src="./assets/wazuh.svg" alt="Wazuh" title="Wazuh" />
   <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" alt="GitLab" title="GitLab CI/CD" />
   <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" title="GitHub Actions" />
@@ -144,7 +144,6 @@ Security learning project for understanding authentication, session handling and
   <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" title="Git" />
   <img height="42" src="./assets/vscode.svg" alt="VS Code" title="Visual Studio Code" />
 </div>
-
 
 ---
 
